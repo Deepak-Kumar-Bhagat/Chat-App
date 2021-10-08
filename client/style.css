@@ -1,0 +1,101 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    padding: 5rem 20rem;
+    background-color: #f1f2f6;
+}
+nav{
+    height:5.5rem;
+    padding: 1rem 0rem;
+    background-color: #dcdde1;
+}
+#logo{
+    color:#6c5ce7;
+    font-size: 3.2rem;
+    margin: 0rem 1rem;
+    display: inline-block;
+}
+#nav-head{
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    opacity: 0.8;
+    font-weight: bold;
+    display: inline-block;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    height:65vh;
+    max-height:65vh;
+    padding: 1rem;
+    overflow-y: auto;
+    background-color: white;
+}
+.left{
+    font-size: 1.4rem;
+    margin-right: 60%;
+}
+.right{
+    margin-left: 55%;
+    font-size: 1.4rem;
+}
+.head{
+    padding-left: 1.5rem;
+    color: #2f3542;
+    text-transform: capitalize;
+}
+.para-left{
+    width: auto;
+    height:auto;
+    background-color:#6c5ce7;
+    border-radius: 1.5rem;
+    padding:1.2rem;
+    color:white;
+    opacity:0.8;
+}
+.para-right{
+    width: auto;
+    height:auto;
+    background-color:#cbc6ee;
+    border-radius: 1.5rem;
+    padding:1.2rem;
+    color:#2f3640;
+}
+.time{
+    padding-top:0.3rem;
+    text-align: end;
+    color: #a4b0be;
+    padding-right: 2rem;
+}
+.chat{
+    background-color: #dcdde1;
+}
+#textarea{
+    width:99%;
+    height:4rem;
+    padding:1rem 1rem;
+    outline: none;
+    background-color: #f5f6fa;
+    border-radius: 2rem;
+    margin: 0.5rem 0.4rem;
+}
+.join{
+    margin-right: 70%;
+    text-transform: capitalize;
+    padding:1rem 0rem;
+    padding-left: 1.5rem;
+    border-radius: 1.5rem;
+    background-color: #dfe4ea;
+    margin-top:1rem;
+}
+.time-join{
+    padding-top:0.3rem;
+    margin-left: 22%;
+    color: #a4b0be;
+}
